@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	
+	<link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/logo128.png">
+	<link rel="apple-touch-icon-precomposed" sizes="64x64" href="images/logo64.png">
+	<link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/logo60.png">
+	<link rel="apple-touch-icon-precomposed" sizes="48x48" href="images/logo48.png">
+	<link rel="apple-touch-icon-precomposed" sizes="32x32" href="images/logo32.png">
+	<link rel="apple-touch-icon-precomposed"	href="images/logo60.png">
+	
+	<title>pnr.me</title>
+</head>
+
+<body>
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container-fluid">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="#">pnr.me</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li id="install">
+						  <a href="#" id="install-btn">
+						    <i class="icon-cloud-download"></i> Install
+					    </a>
+				    </li>
+						<li>
+						  <a href="#myModal" role="button" data-toggle="modal">
+						    <i class="icon-star"></i> About
+					    </a>
+				    </li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span12" style="text-align: center;">
+        <div class="input-append">
+          <input type="number" placeholder="10 digit pnr" id="pnr-number">
+        </div>
+      </div>
+    </div>
+    <div class="row-fluid">
+      <div class="span12" style="text-align: center;">
+        <button class="btn btn-info" type="button" id="status-button">
+          status
+        </button>
+        <button class="btn btn-info" type="button" id="predict-button">
+          predict
+        </button>
+      </div>
+    </div>
+    <hr>
+    <div class="row-fluid">
+      <div class="span12">
+        <div class="progress" id="progress" style="display: none;">
+				</div>
+				<div id="results-container" >
+				</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion" id="accordion"></div>
+  
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog">
+	  <div class="modal-header">
+      <h4>pnr.me 1</h4>
+    </div>
+	  <div class="modal-body">
+	    <p style="text-align: center;">
+	     <img src="images/logo64.png">
+	    </p>
+	    <p>
+	      Indian Railways pnr prediction and status check app
+	    </p>
+	    <p>
+	      Uses pnr.me API.
+	    </p>
+	    <p>&copy; Salil Panikkaveettil</p>
+	  </div>
+	  <div class="modal-footer">
+	    <button class="btn btn-primary" data-dismiss="modal">Close</button>
+	  </div>
+	</div>
+
+	<script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/base.js"></script>
+	<script type="text/javascript" src="js/webapp.js"></script>
+	<script type="text/javascript" src="js/offline.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,47 @@
+@media (min-width: 980px) {
+	body {
+	  padding-top: 60px;
+	}
+}
+
+.accordion-toggle:hover {
+	text-decoration: none;
+}
+
+.accordion-toggle img {
+	margin-right: 10px;
+	margin-top: -5px;
+}
+
+.action {
+	text-decoration: none;
+	color: #333;
+}
+
+.well img {
+  margin-right: 10px;
+  margin-top: -12px;
+}
+
+.temp-container{
+	font-size: 16px;
+  padding-top: 3px;
+  font-weight: bold;
+  float: right;
+}
+
+.temp-container span {
+  margin-right: 10px;
+}
+
+.temp {
+	color: #5BB75B;
+}
+
+.min {
+	color: #006DCC;
+}
+
+.max {
+	color: #DA4F49;
+}

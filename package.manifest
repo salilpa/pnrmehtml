@@ -1,0 +1,9 @@
+{
+    "name": "pnr.me",
+    "package_path" : "http://pnr.me/pnrme.zip",
+    "version": "1",
+    "developer": {
+        "name": "Salil Panikkaveettil",
+        "url": "http://pnr.me"
+    }
+}
